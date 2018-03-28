@@ -18,7 +18,7 @@ public class BMWCar extends Car implements Cloneable,Serializable{
 	public BMWCar(){
 		this.setTrademark("BMW");
 		this.setPrice(300000);
-		setTire(new Tire("佳通轮胎", 16, 2000, "天然橡胶"));
+		setTire(new Tire("佳通轮胎", 16, 2000, "天然1橡胶"));
 	}
 	@Override
 	protected Object clone() throws CloneNotSupportedException {

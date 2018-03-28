@@ -18,7 +18,7 @@ public class SimpleFactory {
 		}if("Porsche".equals(carName)){
 			return new PorscheCar();
 		}else{
-			System.out.println("无法生产此类汽车！");
+			System.out.println("?????????????????");
 			return null;
 		}
 	}
